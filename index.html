@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(72, 72, 255);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: 20vh;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        .login-box {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            text-align: center;
+            width: 350px;
+            height: 350px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 15px;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10px;
+        }
+
+        #username, #password {
+            border-radius: 5px;
+            padding: 10px;
+            border: 1px solid #333;
+        }
+
+        input, select {
+            padding: 15px 20px;
+            margin: 8px 0;
+        }
+
+        input[type=submit] {
+            background-color: rgb(72, 72, 255);
+            border: none;
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        #login {
+            background-color: rgb(72, 72, 255);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="login-box">
+            <h2>Login Applikasi</h2>
+            <form method="post" action="">
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <input type="submit" value="Login" id="login">
+            </form>
+        </section>
+    </div>
+    
+</body>
+</html>
